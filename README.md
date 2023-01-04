@@ -40,7 +40,7 @@ Moving forward into Naive Random Oversampling machine learning model. I started 
 The confusion matrix was next up for this portion of the project. According to Narkhede(2018), "it is extremely useful for measuring Recall, Precision, Specificity, Accuracy, and most importantly AUC-ROC curves.."Upon running the confusion matrix the yeilded results reflected TP: 64, FP: 37, FN: 5286, and TN: 11818. Which means there is a total of 5,350 true positives. Which then when plugged into a classification report imbalanced model the high risk category had a precision score of 0.01 and a recall score of 0.70. For the low risk category the precision score was 1.00 and the recall score was 0.59. With averages at 0.99 for precision score and 0.59 for the recall score. According to Scikit-learn.org (N.D.), "the best value is 1 and the worst value is 0." In this instance the recall score for high_risk and low risk are above 0.5. Knowing that 1.0 is the best both recall scores are somewhat favorable. However, it should be noted that the recall score of 0.59 is barely favorable compared to the high risk recall score of 0.70 to accurately gather the amount of positive cases that were predicted correctly. According to Kanstren, (2020), "recall is a measure of how many of the positive cases the classifier correctly predicted, over all the positive cases in the data." However, when analyzing the precision score for the data the high risk score was not favorable at 0.01 and the low risk score was favorable at 1.00.
 <br/>
 <p align="center">
-  <img width="559" height="294" src="Images/oversampling.png">
+  <img width="859" height="494" src="Images/oversampling.png">
 </p>
 <br/>
 
@@ -67,7 +67,7 @@ Upon creation of the Undersampling machine learning model I used similar steps t
 
 <br/>
 <p align="center">
-  <img width="259" height="194" src="Images/Undersampling.png">
+  <img width="559" height="294" src="Images/Undersampling.png">
 </p>
 <br/>
 
@@ -77,7 +77,7 @@ The fourth model was the CoCombination (Over and Under) Sampling machine learnin
 
 <br/>
 <p align="center">
-  <img width="559" height="294" src="Images/Combination.png">
+  <img width="659" height="394" src="Images/Combination.png">
 </p>
 <br/>
 
